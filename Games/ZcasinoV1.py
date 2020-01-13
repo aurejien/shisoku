@@ -1,6 +1,10 @@
 import os
 from random import randint
 from math import ceil
+print("-----------------------------------")
+print("         Code by åurejien          ")
+print("        github.com/aurejien        ")
+print("-----------------------------------")
 
 monney = 2000
 play_again = True

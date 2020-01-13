@@ -2,10 +2,15 @@
 #GuessTheNumber
 import time
 from random import randint
+print("-----------------------------------")
+print("         Code by åurejien          ")
+print("        github.com/aurejien        ")
+print("-----------------------------------")
+print()
+print()
 print("----------------------------------------------\n")
 print("               Guess the number                 ")
-print("                  4 levels                     ")
-print("                codeby åurejien               \n")
+print("                  4 levels                     \n")
 print("----------------------------------------------\n")
 print()
 name = input("Your name?. . \n→ ")
@@ -82,7 +87,7 @@ while x != 0:
         print("----------------------------------------------\n")
       else:
         print("----------------------------------------------\n")
-        print("Thanks for playing\nGoodbye", name,".")
+        print("Thanks for playing\nGoodbye", name,".\n")
         print("----------------------------------------------\n")
         break
     elif n == 0:
@@ -199,7 +204,7 @@ while x != 0:
         print("----------------------------------------------\n")
       else:
         print("----------------------------------------------\n")
-        print("Thanks for playing\nGoodbye", name,".")
+        print("Thanks for playing\nGoodbye", name,".\n")
         print("----------------------------------------------\n")
         break
     elif n < 1 or n > level_num:
