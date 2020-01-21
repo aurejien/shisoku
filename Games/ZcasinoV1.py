@@ -92,4 +92,3 @@ while play_again:
         else:
             print(f"Goodbye {player_name}")
             play_again = False
-os.system("pause")
