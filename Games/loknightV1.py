@@ -259,7 +259,6 @@ while True:
                             if combat == 1:
                                 if gems <= 0:
                                   print(f"{gems}◊ restant")
-                                  print("Tu ne peux pas utiliser coup de point, tu as plus de cristal")
                                   bypass = 0
                                   break
                                 gems -= 1
@@ -298,7 +297,7 @@ while True:
                             elif combat == 2:
                                 if gems <= 4:
                                   print(f"{gems}◊ restant")
-                                  print("Tu ne peux pas utiliser l'épée, tu as plus de cristal")
+                                  print("Tu ne peux pas utiliser l'épée, tu n'as pas assé de cristaux")
                                   break
                                 gems -= 5
                                 bot_attaque = choice(list_attaque)
@@ -336,7 +335,7 @@ while True:
                             elif combat == 3:
                                 if gems <= 1:
                                   print(f"{gems}◊ restant")
-                                  print("Tu ne peux pas utilisé le bouclier, tu as plus de cristal")
+                                  print("Tu ne peux pas utilisé le bouclier, tu n'as pas assé de cristaux")
                                   break
                                 gems -= 2
                                 bot_attaque = choice(list_attaque)
