@@ -329,7 +329,7 @@ while True:
                                 time.sleep(1.5)
                               else:
                                 print(f"Vous ne pouvez pas utiliser le {boost}")
-                                print(f"Vous avez {plus_attaques}{boost}")
+                                print(f"Vous avez {plus_attaque}{boost}")
                                 print(f"Retour au combat")
                                 time.sleep(1.5)
                               tour += 1
