@@ -359,6 +359,7 @@ while True:
                                 print(f"{hero}")
                                 print(f"Vous attaquez. .. !\n")
                                 if attaque_boost == 50:
+                                  attaque_boost = 0
                                   print("Ton attaque est boosté +50")
                                   print(f"Un coup {arme_un}  // {degats} Dégats")
                                 else:
@@ -403,6 +404,7 @@ while True:
                                 print(f"{hero}")
                                 print(f"Vous attaquez. .. !\n")
                                 if attaque_boost == 50:
+                                  attaque_boost = 0
                                   print("Ton attaque est boosté +50")
                                   print(f"Un coup {arme_deux}  // {degats} Dégats")
                                 else:
